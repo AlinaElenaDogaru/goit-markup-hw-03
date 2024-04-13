@@ -1,0 +1,211 @@
+:root
+{
+    --blue: #2196F3;
+    --black: #212121;
+    --grey: #757575;
+    --white: #FFFFFF;
+    --button-grey: #F5F4FA;
+    --normal-font-size: 14px;
+    --middle-font-size: 16px;
+    --main-font: "Roboto" sans-serif;
+
+    
+}
+/* Body global*/
+.entire-content {
+font-family: var(--main-font);
+color: var(--black);
+width: 1600px;
+}
+
+/* Header style*/
+.web-studio {
+    font-family: "Raleway";
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+    text-align: left;
+    line-height: 1.2;
+}
+.web-logo {
+    color: var(--blue);
+}
+/* Navigation list*/
+.navigation-list {
+    font-size: var(--normal-font-size);
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    text-align: left;
+    line-height: 1.2;
+}
+
+.header-links {
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    line-height: 1.2;
+}
+
+/* Link style */
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+.link:hover {
+    color: var(--blue);
+}
+.link:focus {
+    color: var(--blue)
+}
+
+/*Title section*/
+.title-section { 
+    height: 600px;
+    width: 1600px;
+    background-color: #2F303A;
+    text-align: center;
+    
+}
+ 
+.main-title {
+    color: var(--white);
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 2.64px;
+}
+
+.blue-button {
+    background-color: var(--blue);
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    line-height: 1.88;
+    letter-spacing: 0.96px;
+}
+
+/*Advantages & what we do section*/
+
+.advantage {
+    font-size: var(--normal-font-size);
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.42px;
+}
+.advantage-description {
+color: var(--grey);
+text-align: left;
+line-height: 1.71;
+letter-spacing: 0.42px;
+}
+
+.list, .benefits {
+    list-style-type: none;
+}
+
+/* What we do*/
+.do-title .our-team-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 1.08px;
+}
+ /*Our team section*/
+
+.name {
+    font-size: var(--middle-font-size);
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.48px;
+}
+.ocupation {
+    font-size: var(--middle-font-size);
+    color: var(--grey);
+    line-height: 1.2;
+    letter-spacing: 0.48px;
+}
+
+/*Footer*/
+.contacts {
+    background-color: #2F303A;
+    width: 1600px;
+    height: 251px;
+    color: var(--white);
+}
+
+.web-studio-light {
+    font-family: "Raleway";
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+    text-align: left;
+    line-height: 1.2;
+    color: var(--white);
+}
+
+.web-logo-light {
+    color: var(--blue);
+}
+.contacts-detailes {
+font-style: normal;
+}
+.park {
+    line-height: 1.2;
+    letter-spacing: 0.42px;
+}
+.info, .number {
+    color: #FFFFFF60;
+    line-height: 1.14;
+    letter-spacing: 0.42px;
+}
+.info:hover, .number:hover {
+    color: var(--blue);
+}
+.info:focus, .number:focus {
+color: var(--blue);
+}
+ 
+/* Portofolio page*/
+
+.buttons-element {
+    font-size: var(--middle-font-size);
+    font-weight: 500;
+    background-color: var(--button-grey);
+    height: 38px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    line-height: 1.63;
+    letter-spacing: 0.48px;
+    text-align: center;
+}
+
+.buttons-element:hover {
+    background-color: var(--blue);
+    color: var(--white);
+}
+.buttons-element:focus {
+    background-color: var(--blue);
+    color: var(--white);
+}
+.buttons-list {
+    list-style-type: none;
+}
+
+.projects {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 1.08px;
+    text-align: left;
+}
+.projects-type {
+    color: var(--grey);
+    font-size: var(--middle-font-size);
+    line-height: 1.88;
+    letter-spacing: 0.48px;
+    text-align: left;
+}
