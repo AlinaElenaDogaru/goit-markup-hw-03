@@ -22,6 +22,7 @@
 
     width: 1200px;
     margin: 0 auto;
+
 }
 
 .section {
@@ -35,6 +36,11 @@ font-family: var(--main-font);
 color: var(--black);
 background-color: var(--white);
 
+}
+
+body {
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -320,6 +326,7 @@ color: var(--blue);
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+    
 }
 
 .portofolio {
